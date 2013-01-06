@@ -1,0 +1,9 @@
+#!/home/ecs/apps/flaskr/venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'FirePython==0.9.0','console_scripts','firepython-graphviz'
+__requires__ = 'FirePython==0.9.0'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('FirePython==0.9.0', 'console_scripts', 'firepython-graphviz')()
+)
